@@ -5,8 +5,8 @@
 使用惰性删除策略，访问key时发送key到检测过期的chan里，执行过期删除逻辑
 
 
-启动
-![start.png](info/start.png)
+启动,从数据库中加载五条已有数据
+![s1.png](info/s1.png)
 
 访问8081数据，过期时间设置五秒，访问8080时key已经过期被删除
 ![a1.png](info/a1.png)
